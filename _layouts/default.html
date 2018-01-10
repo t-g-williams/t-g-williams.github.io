@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +27,7 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">{{ page.title }}</span>
+      <span class="site-heading-upper text-primary mb-3">{{ site.title }}</span>
       <span class="site-heading-lower">{{ page.title }}</span>
     </h1>
 
@@ -38,18 +40,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
+            <li class="nav-item px-lg-4 {% if page.title == 'index' %}active{% endif %}">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item px-lg-4 {% if page.title == 'about' %}active{% endif %}">
               <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item {% if page.title == 'products' %}active{% endif %} px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item {% if page.title == 'store' %}active{% endif %} px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
             </li>
           </ul>
@@ -61,7 +63,29 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2017</p>
+        <ul class="icons">
+          {% if site.twitter_username %}
+          <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+          {% endif %}
+          {% if site.instagram_username %}
+          <li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+          {% endif %}
+          {% if site.github_username %}
+          <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
+          {% endif %}
+          {% if site.gscholar %}
+          <li><a href="{{ site.gscholar }}" class="icon fa-graduation-cap"><span class="label">Google</span></a></li>
+          {% endif %}
+          {% if site.email %}
+          <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+          {% endif %}
+          {% if site.feed_icon %}
+          <li><a href="{{ site.github.url }}/{{ site.feed_icon }}.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
+          {% endif %}
+        </ul>
       </div>
     </footer>
 
