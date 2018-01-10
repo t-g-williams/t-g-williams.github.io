@@ -327,10 +327,10 @@ ul {
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
-    float: right;
+    float: left;
   }
   .intro .intro-text {
-    left: 0;
+    right: 0;
     width: 60%;
     margin-top: 3rem;
     position: absolute;

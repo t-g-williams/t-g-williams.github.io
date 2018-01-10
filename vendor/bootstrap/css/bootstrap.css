@@ -227,7 +227,7 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 a:not([href]):not([tabindex]) {
@@ -623,8 +623,8 @@ pre code {
   padding: 0;
   font-size: inherit;
   color: inherit;
-  background-color: transparent;
-  border-radius: 0;
+  /* background-color: transparent;
+  border-radius: 0; */
 }
 
 .pre-scrollable {
