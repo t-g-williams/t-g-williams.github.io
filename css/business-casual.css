@@ -1,3 +1,5 @@
+@import url("font-awesome.min.css");
+
 body {
   font-family: 'Lora';
   background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
@@ -252,6 +254,13 @@ ul {
   margin-bottom: 5rem;
 }
 
+.page-container {
+  margin: 4em;
+  padding: 2em;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -343,25 +352,33 @@ ul {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  /* background-color: rgba(230, 167, 86, 0.9); */
+}
+
+.cta-white {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.65);
+  padding-left: 22px ;
 }
 
 .cta .cta-inner:before {
   border-radius: 0.5rem;
-  content: '';
+  /* content: ''; */
+
   position: absolute;
   top: -0.5rem;
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  /* border: 0.25rem solid rgba(255, 255, 255, 0.85); */
 }
 
 @media (min-width: 992px) {
