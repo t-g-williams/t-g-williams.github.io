@@ -6,10 +6,32 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 
+/* Main */
+.section-heading .section-subheading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+}
 
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 50%;
+    float: right;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 65%;
+    position: relative;
+    top: 3rem;
+    height: auto;
+  }
+}
 
-
-
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 65%;
+  }
+}
 
 
 /* Blog */
