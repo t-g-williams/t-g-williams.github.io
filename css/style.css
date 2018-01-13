@@ -6,6 +6,67 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 
+
+
+
+
+
+
+/* Blog */
+
+.disqus_thread {
+    margin: 4rem 0 2rem;
+}
+
+.date {
+  margin: -2rem 0 2rem;
+}
+
+.cta {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: none;
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+
+.list-hours {
+  width: 100%;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 0px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+  border: 1px solid rgba(47,23,15,.2);
+}
+
 /* Icon */
 .icon {
 	text-decoration: none;

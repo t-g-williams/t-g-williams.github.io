@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner {{ page.text_align }} rounded">
+          <h2 class="section-heading mb-5">
+            <span class="section-heading-upper"> {{ page.title }}</span>
+            <!-- <span class="section-heading-lower">{{ page.title }}</span> -->
+          </h2>
+
+          <!-- this date should only show if it is a post -->
+          {% if page.date %}
+          <p class="date">
+            <i class="fa fa-calendar"></i> {{ page.date | date: "%d %B %Y" }}{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}{% endif %}
+          </p>
+          {% endif %}
+
+
+          {{ content }}
+
+
+          <!-- this comment and next post section should only show if it is a post -->
+          {% if page.date %}
+
+          {% include disqus.html %}
+
+          {% if page.previous.url or page.next.url %}
+            <hr />
+            <div class="row">
+              <article class="col-sm-6">
+                {% if page.previous.url %}
+                <p>Previous</p>
+        				<h2 class="section-heading section-heading-upper mb-5"><a href="{{ page.previous.url }}"><span class="section-heading-upper">{{page.previous.title}}</span></a></h2>
+                {% endif %}
+        			</article>
+        			<article class="col-sm-6">
+                {% if page.next.url %}
+                <p>Next</p>
+        				<h2 class="section-heading mb-5"><a href="{{ page.previous.url }}"><span class="section-heading-upper">{{page.next.title}}</span></a></h2>
+
+                {% endif %}
+        			</article>
+            </div>
+            {% endif %}
+
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -27,3 +27,6 @@ scholar_username: "t9WLfKQAAAAJ&hl"
 
 sass:
   sass_dir: assets/sass
+
+markdown: kramdown
+highlighter: rouge
