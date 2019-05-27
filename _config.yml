@@ -17,7 +17,7 @@
 title: Tim Williams
 email: tgw@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Tim William's research website
+  Tim Williams' research website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://timwilliams.kiwi # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
