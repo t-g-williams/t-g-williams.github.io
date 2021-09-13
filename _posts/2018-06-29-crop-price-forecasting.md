@@ -4,7 +4,7 @@ title:  Forecasting Crop Prices in Ethiopia
 author: Tim Williams
 excerpt: Crop prices are an important factor in the food security and livelihoods of smallholder farmers in developing nations. In this blog post I present some results to a quick attempt at predicting crop prices using climate data.
 date:   2018-06-29
-<!-- categories: research -->
+categories: posts
 comments: false
 toc: true
 tags:

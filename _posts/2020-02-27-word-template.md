@@ -4,7 +4,7 @@ title:  Microsoft Word Template with Appendix Heading Numbering
 author: Tim Williams
 excerpt: I like using the auto-numbering features in Word for headings and figures. I'd never tried to figure out how to do this with appendices until today. Here's the result.
 date: 2020-02-27
-<!-- categories: research-practice -->
+categories: posts
 comments: false
 toc: true
 ---
