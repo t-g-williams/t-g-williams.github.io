@@ -4,8 +4,8 @@ title:  "Learning from my research internship to enhance my PhD"
 author: Tim Williams
 excerpt: Tim Williams talks about what his experience during a research-based internship with the POLISES team at UFZ taught him about research.
 date:   2019-11-04
-categories: research-practice comment
-comments: true
+<!-- categories: research-practice comment -->
+comments: false
 ---
 
 This blog is also posted on the [POLISES website](http://www.polises.de/blog/learning-from-my-research-internship-to-enhance-my-phd.html).

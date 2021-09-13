@@ -4,8 +4,8 @@ title:  Documenting literature reviews
 author: Tim Williams and Tom Logan
 excerpt: How we organize our academic readings.
 date: 2017-09-17
-categories: research-practice
-comments: true
+<!-- categories: research-practice -->
+comments: false
 toc: true
 ---
 
