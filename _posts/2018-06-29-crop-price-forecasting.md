@@ -7,8 +7,8 @@ date:   2018-06-29
 categories: posts
 comments: false
 toc: true
-<!-- tags: -->
-<!-- - draft -->
+tags:
+- draft
 ---
 
 My objective here was to see how well I could predict historical crop prices in Ethiopia using solely weather and climate information.
