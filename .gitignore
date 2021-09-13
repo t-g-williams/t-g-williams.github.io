@@ -1,4 +1,4 @@
 node_modules
 _site
-_scratch
+**_scratch
 **.ini
