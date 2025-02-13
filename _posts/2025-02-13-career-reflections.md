@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Leaving academia: Some lessons from one year in the private sector
+title:  "Leaving academia: Some lessons from one year in the private sector"
 author: Tim Williams
 excerpt: Reflecting on the benefits and frustrations of my decision to leave academia
 date:   2025-02-13
