@@ -19,7 +19,7 @@ It was a perfect fit! I was able to apply my research skills and my expertise in
 So what did I like? What did I miss? And what comes next? While these are just my personal experiences that may not apply to every situation, I hope sharing them can help encourage others to take bold steps themselves.
 
 <!-- ![](/assets/blog/2025-02-13-career-reflections/cf-team.jpg) -->
-<img class ="image" src="/assets/blog/2025-02-13-career-reflections/cf-team.jpg"  width = "80%">
+<img class ="image" src="/assets/blog/2025-02-13-career-reflections/cf-team.jpg"  width = "100%">
 *The one time I met the Climate Farmers team in person, at our team retreat in May 2024.*
 
 ## The good
