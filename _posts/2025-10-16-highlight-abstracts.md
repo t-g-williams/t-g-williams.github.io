@@ -11,14 +11,14 @@ comments: false
 # An introductory note
 The following text is reproduced from Github, where the code is hosted and can be downloaded:
 
-https://github.com/t-g-williams/highlight-abstracts
+[https://github.com/t-g-williams/highlight-abstracts](https://github.com/t-g-williams/highlight-abstracts)
 
 # Highlight Keywords in Scopus Abstracts
 
 An R utility to color-highlight keyword groups in a set of titles/abstracts/keywords exported from Scopus.
 
 As an example, here is the search terms from my literature review and the output for a single abstract:
-<img src="../assets/blog/2025-10-16-highlight-abstracts/example.png" alt="Example" width="800" style="display:block;margin:auto;">
+<img src="/assets/blog/2025-10-16-highlight-abstracts/example.png" alt="Example" width="800" style="display:block;margin:auto;">
 
 
 ## Why might you want this?
